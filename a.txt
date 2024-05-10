@@ -1,0 +1,12 @@
+sudo apt upadte
+sudo apt install default-jdk
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+sudo su -
+cat (given link from browser)
+then copy the password in ec2 machine then paste bowser
+sudo su -
